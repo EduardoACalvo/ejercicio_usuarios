@@ -15,9 +15,8 @@ function mostrarUsuarios() {
     return usuarios
 }
 
-function obtenerUsuario(peliculaID) {
-    // let user = peliculas.find((pelicula) => pelicula.id === Number((peliculaID)))
-    let user = usuarios.find((usuario) => usuario.id === Number((peliculaID)))
+function obtenerUsuario(usuarioID) {
+    let user = usuarios.find((usuario) => usuario.id === Number((usuarioID)))
     return user
 }
 
